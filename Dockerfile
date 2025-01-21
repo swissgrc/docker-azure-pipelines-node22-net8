@@ -1,5 +1,5 @@
 # Base image containing dependencies used in builder and final image
-FROM ghcr.io/swissgrc/azure-pipelines-dotnet:8.0.404 AS base
+FROM ghcr.io/swissgrc/azure-pipelines-dotnet:8.0.405 AS base
 
 
 # Builder image
@@ -45,7 +45,7 @@ COPY --from=build /etc/apt/sources.list.d/ /etc/apt/sources.list.d
 # Install NodeJS
 
 # renovate: datasource=github-tags depName=nodejs/node extractVersion=^v(?<version>.*)$
-ENV NODE_VERSION=22.13.0
+ENV NODE_VERSION=22.13.1
 
 RUN apt-get update -y && \
   # Install NodeJs
