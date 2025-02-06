@@ -48,6 +48,6 @@ The following example shows the container used for a deployment step with a Azur
 |------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | latest-22-net8   | Latest stable release (from `main` branch)             | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-node/latest-22-net8?style=flat-square)   |
 | unstable-22-net8 | Latest unstable release (from `develop` branch)        | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-node/unstable-22-net8?style=flat-square) |
-| x.y.z-net8       | Image for a specific version of Renovate Node.js       |                                                                                                                                       |
+| x.y.z-net8       | Image for a specific version of Node.js                |                                                                                                                                       |
 
 [Azure Pipelines container jobs]: https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases
