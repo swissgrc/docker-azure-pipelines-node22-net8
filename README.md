@@ -10,14 +10,6 @@ Docker image to run Node.js commands in [Azure Pipelines container jobs].
 
 This image can be used to run Node.js commands in [Azure Pipelines container jobs].
 
-The following software is additionally available in the image:
-
-| Software   | Included since |
-|------------|----------------|
-| Docker CLI | 22.3.0        |
-| Git        | 22.3.0        |
-| .NET 8     | 22.3.0        |
-
 ### Azure Pipelines Container Job
 
 To use the image in an Azure Pipelines Container Job, add one of the following example tasks and use it with the `container` property.
